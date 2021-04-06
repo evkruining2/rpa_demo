@@ -56,5 +56,5 @@ extensions:
     results:
       SUCCESS:
         6a1f3bb5-55f7-dbbb-0b9b-3911d0722448:
-          x: 323
-          'y': 93
+          x: 369
+          'y': 122

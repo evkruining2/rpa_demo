@@ -9,42 +9,42 @@ operation:
       # do not remove the execute function
       def execute(list):
           # code goes here
-          gender,name.title,name.first,name.last,location.street.number,location.street.name,location.city,location.state,location.country,location.postcode,location.coordinates.latitude,location.coordinates.longitude,location.timezone.offset,location.timezone.description,email,login.uuid,login.username,login.password,login.salt,login.md5,login.sha1,login.sha256,dob.date,dob.age,registered.date,registered.age,phone,cell,id.name,id.value,picture.large,picture.medium,picture.thumbnail,nat = line.split(',',33)
-      # you can add additional helper methods below.
+          gender,name_title,name_first,name_last,location_street_number,location_street_name,location_city,location_state,location_country,location_postcode,location_coordinates_latitude,location_coordinates_longitude,location_timezone_offset,location_timezone_description,email,login_uuid,login_username,login_password,login_salt,login_md5,login_sha1,login_sha256,dob_date,dob_age,registered_date,registered_age,phone,cell,id_name,id_value,picture_large,picture_medium,picture_thumbnail,nat = line.split(',',33)
+          # you can add additional helper methods below.
   outputs:
     - gender
-    - name.title
-    - name.first
-    - name.last
-    - location.street.number
-    - location.street.name
-    - location.city
-    - location.state
-    - location.country
-    - location.postcode
-    - location.coordinates.latitude
-    - location.coordinates.longitude
-    - location.timezone.offset
-    - location.timezone.description
+    - name_title
+    - name_first
+    - name_last
+    - location_street_number
+    - location_street_name
+    - location_city
+    - location_state
+    - location_country
+    - location_postcode
+    - location_coordinates_latitude
+    - location_coordinates_longitude
+    - location_timezone_offset
+    - location_timezone_description
     - email
-    - login.uuid
-    - login.username
-    - login.password
-    - login.salt
-    - login.md5
-    - login.sha1
-    - login.sha256
-    - dob.date
-    - dob.age
-    - registered.date
-    - registered.age
+    - login_uuid
+    - login_username
+    - login_password
+    - login_salt
+    - login_md5
+    - login_sha1
+    - login_sha256
+    - dob_date
+    - dob_age
+    - registered_date
+    - registered_age
     - phone
     - cell
-    - id.name
-    - id.value
-    - picture.large
-    - picture.medium
-    - picture.thumbnail
+    - id_name
+    - id_value
+    - picture_large
+    - picture_medium
+    - picture_thumbnail
     - nat
   results:
     - SUCCESS

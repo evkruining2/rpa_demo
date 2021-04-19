@@ -1,10 +1,10 @@
 namespace: RPA_Challenge
 operation:
-  name: RPA_Challenge_all_in_one
+  name: RPA_Challenge_v1
   inputs:
     - Filename: "c:\\Temp\\challenge.xlsx"
   sequential_action:
-    gav: 'com.microfocus.seq:RPA_Challenge.RPA_Challenge_all_in_one:1.2.0'
+    gav: 'com.microfocus.seq:RPA_Challenge.RPA_Challenge_v1:1.2.0'
     skills:
       - SAPWebExt
       - UI Automation

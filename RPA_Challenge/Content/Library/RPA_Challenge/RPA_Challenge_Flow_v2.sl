@@ -10,12 +10,15 @@ flow:
   inputs:
     - xls_location: 'http://rpachallenge.com/assets/downloadFiles/challenge.xlsx'
     - local_file: "c:\\Temp\\challenge.xlsx"
+    - proxy:
+        required: false
   workflow:
     - Download_Workload:
         do:
           RPA_Challenge.Download_Workload:
             - xls_location: '${xls_location}'
             - local_file: '${local_file}'
+            - proxy: '${proxy}'
         navigate:
           - SUCCESS: RPA_Challenge_v2
     - delete:
